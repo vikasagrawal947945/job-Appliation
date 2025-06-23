@@ -6,7 +6,7 @@ const jobRoutes = require("./route/job.routes");
 app.use(express.json());
 app.use("/api/v1/job",jobRoutes);
 
-mongoose.connect('mongodb://127.0.0.1:27017/jobDb')
+mongoose.connect('mongodb+srv://vikasagrawal252:dloGf9vHIcmXYGjl@cluster0.7guyne2.mongodb.net/')
 .then(()=>{ console.log("connection successful");})
 .catch(()=> console.log("some error happend"));
 

@@ -1,6 +1,7 @@
 
 const mongoose = require("mongoose");
-
+ //dloGf9vHIcmXYGjl
+ //mongodb+srv://vikasagrawal252:dloGf9vHIcmXYGjl@cluster0.7guyne2.mongodb.net/
 const jobSchema = mongoose.Schema({
     title :{
          type : String,
